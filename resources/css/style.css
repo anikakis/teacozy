@@ -16,3 +16,48 @@ header {
   border-bottom: 1px solid seashell;
 
 }
+
+/*Main Content Section*/
+
+.main {
+  border: 1px solid seashell;
+  display: flex;
+  width: 1200px;
+  margin: 0 auto;
+  padding-top: 80px;
+  height: 700px;
+}
+
+/*Tea of the Month Section*/
+
+.month {
+  border: 1px solid red;
+  height: 1000px;
+  width: 1000px;
+  margin: 0 auto;
+
+}
+
+/*Locations Section*/
+
+.locations {
+  border: 1px solid seashell;
+  height: 500px;
+  width: 1200px;
+  margin: 0 auto;
+}
+
+/*Footer Section*/
+
+footer {
+  border: 1px solid red;
+  height: 200px;
+  width: 1200px;
+  margin: 0 auto;
+}
+
+/*Copyright Section*/
+
+.copyright {
+  padding-left: 20px;
+}
