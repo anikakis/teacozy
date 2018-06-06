@@ -14,18 +14,44 @@ body {
 header {
   height: 69px;
   border-bottom: 1px solid seashell;
+  position: fixed;
+  width: 100%;
+  background-color: black;
+  z-index: 1;
+}
 
+/*Content Section*/
+
+.content {
+  padding-top: 69px;
 }
 
 /*Main Content Section*/
 
-.main {
-  border: 1px solid seashell;
+.mission {
   display: flex;
   width: 1200px;
   margin: 0 auto;
-  padding-top: 80px;
   height: 700px;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../images/img-mission-background.jpg);
+  background-size: cover;
+}
+
+.banner {
+  width: 100%;
+  background-color: black;
+}
+
+h2 {
+  margin: 10px;
+  text-align: center;
+}
+
+h4 {
+  text-align: center;
+  margin: 10px;
 }
 
 /*Tea of the Month Section*/
