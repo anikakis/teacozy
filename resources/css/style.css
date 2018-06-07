@@ -9,6 +9,10 @@ body {
   margin: 0;
 }
 
+a {
+  color: seashell;
+}
+
 /* Header Section*/
 
 header {
@@ -18,6 +22,22 @@ header {
   width: 100%;
   background-color: black;
   z-index: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo img {
+  height: 50px;
+  margin-left: 10px;
+}
+
+header nav {
+  margin-right: 10px;
+}
+
+nav span {
+  padding-left: 20px;
 }
 
 /*Content Section*/
@@ -28,7 +48,7 @@ header {
 
 /*Main Content Section*/
 
-.mission {
+#mission {
   display: flex;
   width: 1200px;
   margin: 0 auto;
@@ -56,30 +76,89 @@ h4 {
 
 /*Tea of the Month Section*/
 
-.month {
-  border: 1px solid red;
-  height: 1000px;
+#featured {
+  /*border: 1px solid red;*/
+  /*height: 1000px;*/
   width: 1000px;
   margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  padding: 80px 0;
+}
+
+#featured .store {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 
 }
 
+#featured .product {
+  margin: 15px 15px 0 15px;
+}
+
+#featured .image-content img {
+  /*border: 1px solid red;*/
+  height: 200px;
+  width: 300px;
+
+}
+
+
+
 /*Locations Section*/
 
-.locations {
-  border: 1px solid seashell;
-  height: 500px;
+#locations {
+  /*border: 1px solid seashell;*/
+  height: 570px;
   width: 1200px;
   margin: 0 auto;
+  background-image: url(../images/img-locations-background.jpg);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+#locations .title {
+  text-align: center;
+}
+
+#locations .place {
+  width: 100%;
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+#locations .box {
+  /*border: 1px solid red;*/
+  width: 300px;
+  height: 290px;
+  margin: 15px 20px;
+  background-color: black;
+  opacity: 1;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }
 
 /*Footer Section*/
 
 footer {
-  border: 1px solid red;
+  /*border: 1px solid red;*/
   height: 200px;
   width: 1200px;
   margin: 0 auto;
+  text-align: center;
+}
+
+footer .contact {
+  margin-top: 45px;
 }
 
 /*Copyright Section*/
